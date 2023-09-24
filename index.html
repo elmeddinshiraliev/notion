@@ -54,7 +54,7 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#" target="_top">Главная</a>
+		<a id="home" onclick="navigate(this.id)" href="#">Главная</a>
 		<a id="inbox" onclick="navigate(this.id)" href="#">Склад</a>
 		
 		
@@ -76,7 +76,7 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://www.notion.so/its-team/It-s-team-5484e5adc1704e6bb77ec72e3417ac6e?pvs=4", '_self').focus();
+				window.open("https://www.notion.so/its-team/It-s-team-5484e5adc1704e6bb77ec72e3417ac6e?pvs=4", '_top').focus();
 			else if (id == "inbox")
 				window.open("https://www.notion.so/its-team/4a54002d059744bfbcafea472b2eef51?pvs=4", '_top').focus();
 			else if (id == "week")
