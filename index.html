@@ -27,7 +27,7 @@
 			font-family: 'Advent Pro', sans-serif;
 			padding: 0px;
 			text-align: center;
-			margin: 0px auto !important;
+			margin: 0px !important;
 			width: fit-content;
 		}
 
@@ -54,8 +54,8 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="https://www.notion.so/its-team/It-s-team-5484e5adc1704e6bb77ec72e3417ac6e?pvs=4">Главная</a>
-		<a id="inbox" onclick="navigate(this.id)" href="https://www.notion.so/its-team/4a54002d059744bfbcafea472b2eef51?pvs=4">Склад</a>
+		<a id="home" onclick="navigate(this.id)" href="#">Главная</a>
+		<a id="inbox" onclick="navigate(this.id)" href="#">Склад</a>
 		
 		
 
@@ -76,9 +76,9 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://www.notion.so/its-team/It-s-team-5484e5adc1704e6bb77ec72e3417ac6e?pvs=4").focus();
 			else if (id == "inbox")
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://www.notion.so/its-team/4a54002d059744bfbcafea472b2eef51?pvs=4").focus();
 			else if (id == "week")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "month")
